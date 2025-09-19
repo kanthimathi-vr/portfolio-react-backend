@@ -38,7 +38,7 @@ ROOT_URLCONF = 'portfolio_backend.urls'
 
 # CORS configuration for your React frontend
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5174",  # Add your React dev server URL here
+    "https://portfolio-react-frontend-red.vercel.app/",  # Add your React dev server URL here
 ]
 
 # Email backend configuration for sending the contact form
